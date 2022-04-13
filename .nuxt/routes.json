@@ -1,0 +1,16 @@
+[
+  {
+    "name": "detail-workId",
+    "path": "/detail/:workId?",
+    "component": "/workspace/pages/detail/_workId.vue",
+    "chunkName": "pages/detail/_workId",
+    "_name": "_64da72ba"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/workspace/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3d6810e8"
+  }
+]
