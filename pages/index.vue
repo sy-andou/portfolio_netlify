@@ -63,7 +63,7 @@
           <h2 class="title">ABOUT</h2>
           <div class="profile">
             <p class="profile-img">
-              <img src="img/profile.jpg" alt="" />
+              <img src="img/shoes.webp" alt="" />
             </p>
             <div class="profile-body">
               <h5>SHO AND</h5>
