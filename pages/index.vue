@@ -295,7 +295,7 @@ export default {
   vertical-align: bottom;
   color: #fff;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .mv {
     height: 50vh;
   }

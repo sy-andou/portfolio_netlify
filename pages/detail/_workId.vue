@@ -232,7 +232,7 @@ export default {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .swiper-page-bullet {
     height: 3px;
     width: 20px;
