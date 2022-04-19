@@ -18,7 +18,7 @@
             <div v-on:click="prevPage" class="prevPage-btn"><</div>
             <div class="swiper-container">
               <span
-                v-for="n in 5"
+                v-for="n in workList.images.length"
                 v-on:click="changePage(n - 1)"
                 v-bind:class="{ black: imgPage == n - 1 }"
                 class="swiper-page-bullet"
@@ -53,11 +53,11 @@
           </div>
           <div class="container">
             <h3>githubリポジトリ</h3>
-            <div>
+            <div v-show="workList.github_1">
               <p>フロントエンド</p>
               <a v-bind:href="workList.github_1">{{ workList.github_1 }}</a>
             </div>
-            <div>
+            <div v-show="workList.github_2">
               <p>バックエンド</p>
               <a v-bind:href="workList.github_2">{{ workList.github_2 }}</a>
             </div>
