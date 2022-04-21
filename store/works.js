@@ -21,6 +21,16 @@ export const state=()=>({
             "technologies":["Nuxt.js","Netlify",],
             "github_1": "https://github.com/sy-andou/Rese_Netlify"
     },
+    {
+            "id": 3,
+            "title": "Crops",
+            "kinds": "personal",
+            "images":["/img/works/crops/crops1.png","/img/works/crops/crops2.png","/img/works/crops/crops3.png"],
+            "detail": "農作物の販売サイトになります。実家が農業を営んでいることから、農作物を直売できるようにECサイトを構築しました。",
+            "URL": "https://unique-maamoul-0456f1.netlify.app/",
+            "technologies":["Nuxt.js","Laravel","Netlify","Heroku","AWS(s3)","docker"],
+            "github_1": "https://git.heroku.com/cropsbackend.git"
+    },
   ],
   workList:{},
 })
