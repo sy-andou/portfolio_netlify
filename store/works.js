@@ -2,6 +2,16 @@ export const state=()=>({
   workLists: [
     {
             "id": 1,
+            "title": "SHO AND Portfolio Site",
+            "kinds": "personal",
+            "images":["/img/works/portfolio/portfolio1.png","/img/works/portfolio/portfolio2.png",],
+            "detail": "現在閲覧いただいておりますサイトになります。こちらにこれまで作成した作品、および現在携わっております業務を掲載していきます。",
+            "URL": "https://superlative-hamster-ee5d0e.netlify.app/",
+            "technologies":["Nuxt.js","Netlify",],
+            "github_1": "https://github.com/sy-andou/Rese_Netlify"
+    },
+    {
+            "id": 2,
             "title": "RSS",
             "kinds": "personal",
             "images":["/img/works/RSS/RSS1.png","/img/works/RSS/RSS2.png","/img/works/RSS/RSS3.png","/img/works/RSS/RSS4.png","/img/works/RSS/RSS5.png"],
@@ -12,24 +22,15 @@ export const state=()=>({
             "github_2": "https://github.com/sy-andou/Rese_backend_Heroku",
     },
     {
-            "id": 2,
-            "title": "SHO AND Portfolio Site",
-            "kinds": "personal",
-            "images":["/img/works/portfolio/portfolio1.png","/img/works/portfolio/portfolio2.png",],
-            "detail": "現在閲覧いただいておりますサイトになります。こちらにこれまで作成した作品、および現在携わっております業務を掲載していきます。",
-            "URL": "https://superlative-hamster-ee5d0e.netlify.app/",
-            "technologies":["Nuxt.js","Netlify",],
-            "github_1": "https://github.com/sy-andou/Rese_Netlify"
-    },
-    {
             "id": 3,
             "title": "Crops",
             "kinds": "personal",
             "images":["/img/works/crops/crops1.png","/img/works/crops/crops2.png","/img/works/crops/crops3.png"],
             "detail": "農作物の販売サイトになります。実家が農業を営んでいることから、農作物を直売できるようにECサイトを構築しました。",
-            "URL": "*現在工事中です。",
+            "URL": "https://unique-maamoul-0456f1.netlify.app/",
             "technologies":["Nuxt.js","Laravel","Netlify","Heroku","AWS(s3)","docker"],
-            "github_1": "https://git.heroku.com/cropsbackend.git"
+            "github_1": "https://github.com/sy-andou/cropsfrontend",
+            "github_2": "https://git.heroku.com/cropsbackend.git"
     },
   ],
   workList:{},
