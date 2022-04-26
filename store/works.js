@@ -26,7 +26,7 @@ export const state=()=>({
             "title": "Crops",
             "kinds": "personal",
             "images":["/img/works/crops/crops1.png","/img/works/crops/crops2.png","/img/works/crops/crops3.png"],
-            "detail": "農作物の販売サイトになります。実家が農業を営んでいることから、農作物を直売できるようにECサイトを構築しました。",
+            "detail": "農作物の販売サイトになります。実家が農業を営んでいることから、農作物を直売できるようにECサイトを構築しました(現在、サイト製作中です。)。",
             "URL": "https://crops-syand.netlify.app",
             "technologies":["Nuxt.js","Laravel","Netlify","Heroku","AWS(s3)","docker"],
             "github_1": "https://github.com/sy-andou/cropsfrontend",
