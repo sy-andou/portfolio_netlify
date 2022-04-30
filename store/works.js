@@ -38,7 +38,7 @@ export const state=()=>({
             "kinds": "work",
             "images":["/img/skills/electron-vue-icon.png",],
             "detail": "金属化合物の強度計算を実施するアプリケーションになります。フロントエンドをElectron-vue、バックエンドをFirebaseで作成しております(現在、アプリケーション作成中になります。近日公開予定です)。",
-            "URL": "https://crops-syand.netlify.app",
+            "URL": "現在、開発中です。",
             "technologies":["Electron-vue","Firebase"],
             "github_1": "現在、開発中です。",
     },
