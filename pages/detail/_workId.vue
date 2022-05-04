@@ -28,9 +28,12 @@
           <div class="container">
             <p>{{ workList.detail }}</p>
           </div>
-          <div class="container" v-if="workList.account.length !== 0">
+          <div class="container" v-if="workList.accounts.length !== 0">
             <h3>サンプルアカウント</h3>
-            <div v-for="account in workList.accounts">
+            <div
+              v-for="(account, index) in workList.accounts"
+              v-bind:key="index"
+            >
               <p>{{ account }}</p>
             </div>
           </div>
