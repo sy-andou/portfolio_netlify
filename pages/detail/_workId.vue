@@ -28,6 +28,12 @@
           <div class="container">
             <p>{{ workList.detail }}</p>
           </div>
+          <div class="container" v-if="workList.account.length !== 0">
+            <h3>サンプルアカウント</h3>
+            <div v-for="account in workList.accounts">
+              <p>{{ account }}</p>
+            </div>
+          </div>
           <div class="container">
             <h3>URL</h3>
             <div>
